@@ -35,6 +35,6 @@
 9.insert data into table
 =>demo=# INSERT INTO users (name, email) VALUES ('Jerry', 'jerry@example.com'), ('George', 'george@example.com');
 
-10.If you have Permition error the execute
+10.If you have Permission error the execute
 => demo=# GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to me;
 
